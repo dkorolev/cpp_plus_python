@@ -1,0 +1,6 @@
+# A symlink or something cloned nearby.
+pybind11
+current
+
+# Build artifacts.
+build
