@@ -12,7 +12,7 @@ s0 = cpp_lib.s1m()
 print(f'S1M[-5:]: {s0[-5:]}, len={len(s0)}')
 
 s1_list = []
-for i in range(0, 40):
+for i in range(0, 3):
   s1 = cpp_lib.growing_s()
   s1_list.append(s1)
   print(f'SPP[-5:]: {s1[-5:]}, len={len(s1)}')
