@@ -11,6 +11,8 @@ print(f'ERR: {cpp_lib.add_from_json(json.dumps({"foo":"bar"}))}')
 s0 = cpp_lib.s1m()
 print(f'S1M[-5:]: {s0[-5:]}, len={len(s0)}')
 
-for i in range(0, 5):
+s1_list = []
+for i in range(0, 40):
   s1 = cpp_lib.growing_s()
+  s1_list.append(s1)
   print(f'SPP[-5:]: {s1[-5:]}, len={len(s1)}')
