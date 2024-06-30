@@ -3,7 +3,7 @@ import json
 
 print(f"1+2: {cpp_lib.add(1, 2)}")
 
-print(f"DUP: {cpp_lib.duplicate("foo")}")
+print(f"DUP: {cpp_lib.duplicate('foo')}")
 
 print(f"ADD: {cpp_lib.add_from_json(json.dumps({'a':1,'b': 2}))}")
 print(f"ERR: {cpp_lib.add_from_json(json.dumps({'foo':'bar'}))}")
