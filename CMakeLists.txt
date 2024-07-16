@@ -6,5 +6,6 @@ set (CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(pybind11)
+include_directories("current")
 
 pybind11_add_module(cpp_lib cpp_lib.cc)

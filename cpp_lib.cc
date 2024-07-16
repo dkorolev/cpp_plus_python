@@ -1,8 +1,8 @@
 #include <pybind11/pybind11.h>
 
-#include "current/typesystem/struct.h"
-#include "current/typesystem/optional.h"
-#include "current/typesystem/serialization/json.h"
+#include "typesystem/struct.h"
+#include "typesystem/optional.h"
+#include "typesystem/serialization/json.h"
 
 #include <memory>
 
